@@ -1,0 +1,108 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+.container-log-tit{
+    background:  linear-gradient(rgba(21, 3, 104, 0.439), rgba(139, 114, 228, 0.286)),url("./assets/design1_image1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+
+.container-log-tit a{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+
+
+.logo img{
+    position: absolute;
+    right: 10vw;
+    top: 21vh;
+    max-width: 200px;
+
+}
+
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5%;
+}
+
+.container-nav{
+    display: flex;
+    height: 190px;
+}
+.container-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.container-article{
+    margin-left: 5%;
+}
+.container-article h4{
+    padding: 5px;
+}
+
+.container-article h5, .container-article p, .container-article div{
+    padding: 5px 35px;
+}
+
+
+
+
+
+/*
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: yellowgreen;
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-header nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.container-main .container-article h5{
+    padding-left: 35px ;
+}
+
+.img-prin img{
+    width: 100vh;
+}
+
+
+
+
+
+QUERYS
+
+*/
