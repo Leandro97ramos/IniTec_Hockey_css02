@@ -10,17 +10,21 @@ body{
 }
 
 .container-log-tit{
-    background:  linear-gradient(rgba(21, 3, 104, 0.439), rgba(139, 114, 228, 0.286)),url("./assets/design1_image1.jpg") ;
+    background:  url("./assets/design1_image1.jpg") ;
     background-repeat: no-repeat;
     background-position: center ;
-    height: 40vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: aliceblue;
 
 }
 
+.container-log-tit h1{
+
+    padding: 0px 20px;
+        font-size: 4rem;
+}
 
 .container-log-tit a{
     background: black;
@@ -35,8 +39,8 @@ body{
 .logo img{
     position: absolute;
     right: 10vw;
-    top: 21vh;
-    max-width: 200px;
+    top: 46vh;
+    max-width: 130px;
 
 }
 
@@ -55,6 +59,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    list-style: none;
 }
 
 
@@ -69,40 +74,3 @@ body{
     padding: 5px 35px;
 }
 
-
-
-
-
-/*
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Fjalla One', sans-serif;
-    background-color: yellowgreen;
-}
-.container-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.container-header nav ul{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-.container-main .container-article h5{
-    padding-left: 35px ;
-}
-
-.img-prin img{
-    width: 100vh;
-}
-
-
-
-
-
-QUERYS
-
-*/
