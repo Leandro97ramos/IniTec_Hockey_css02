@@ -26,7 +26,7 @@ body{
         font-size: 4rem;
 }
 
-.container-log-tit a{
+div > a{
     background: black;
     color: aliceblue;
     text-align: center;
@@ -34,8 +34,16 @@ body{
     padding: 15px 0px;
 }
 
+/*
+.container-log-tit > a{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
 
-
+*/
 .logo img{
     position: absolute;
     right: 10vw;
