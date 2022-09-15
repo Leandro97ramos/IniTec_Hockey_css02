@@ -9,22 +9,22 @@ body{
     font-family: cursive;
 }
 
+.title{
+
+    margin: 25px 25px 10px 22px;
+}
+
+
 .container-log-tit{
-    background:  url("../assets/design1_image1.jpg") ;
+    background:  url("../assets/design1_image2.jpg");
     background-repeat: no-repeat;
     background-position: center ;
     height: 65vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column-reverse;
 
 }
 
-.container-log-tit h1{
-
-    padding: 0px 20px;
-        font-size: 4rem;
-}
 
 div > a{
     background: black;
@@ -45,9 +45,7 @@ div > a{
 
 */
 .logo img{
-    position: absolute;
-    right: 10vw;
-    top: 46vh;
+    
     max-width: 130px;
 
 }
@@ -60,16 +58,40 @@ div > a{
 }
 
 .container-nav{
-    display: flex;
+    position: absolute;
+    right: 1.6vw;
+    top: 7vh;
     height: 190px;
 }
 .container-nav ul{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     list-style: none;
+
 }
 
+
+.container-nav ul > li a{
+    color: white;
+    padding: 0.2rem 1rem;
+    margin: 0px 5px;
+    border: 0.2rem solid black;
+    box-shadow: 4px 4px 2px 0px rgb(0 0 0 / 45%);
+}
+
+
+
+
+
+.btn{
+
+    background-color: rgb(80 74 184);
+
+}
+
+#selected{
+    background-color: rgb(40, 136, 33);
+}
 
 .container-article{
     margin-left: 5%;
